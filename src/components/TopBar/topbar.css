@@ -1,0 +1,33 @@
+.TopBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.7rem;
+    background-color: var(--main-yellow);
+    color: #fff;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.7rem;
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.phone a {
+    text-decoration: none;
+    color: var(--light-purple);
+}
+
+.right {
+    display: flex;
+    gap: 0.3rem;
+}

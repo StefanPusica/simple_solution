@@ -1,0 +1,21 @@
+.PageHeading {
+    display: inline;
+    font-size: 3rem;
+    font-weight: 700;
+    /* background-image: linear-gradient(to right , var(--main-yellow), #fff); */
+    /* background-clip: text; */
+    color: #fff;
+    /* -webkit-text-fill-color: transparent; */
+    border-bottom: 4px solid var(--main-yellow);
+    width: 100%;
+    /* filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); */
+    text-align: left;
+    padding-bottom: 1rem;
+}
+
+@media screen and (max-width: 650px) {
+    .PageHeading {
+        font-size: 2rem;
+        line-height: 4rem;
+    }
+}

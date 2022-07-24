@@ -1,0 +1,138 @@
+.footer {
+    background-color: var(--main-blue);
+}
+
+.footer-holder {
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid var(--main-yellow);
+    gap: 2rem;
+    width: 100%;
+    padding: 0.7rem;
+    background-color: var(--light-purple);
+    text-align: center;
+}
+
+.logo-and-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-heading {
+    font-weight: 700;
+    color: var(--main-yellow);
+    margin-bottom: 1rem;
+}
+
+.footer-logo {
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-blue);
+    border-radius: 50%;
+    transform: translateY(-61%);
+    border-top: 2px solid var(--main-yellow);
+    border-left: 2px solid var(--main-yellow);
+    border-right: 2px solid var(--main-yellow);
+}
+
+.footer-btn-holder {
+    margin-bottom: 2rem;
+}
+
+.footer-btn {
+    border: 2px solid #fff;
+    padding: 0.7rem 1rem;
+    text-decoration: none;
+    color: var(--main-yellow);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+.footer-logo img{
+    width: 100%;
+}
+
+.footer-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.footer-list-item a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer-pages,
+.logo-and-btn,
+.footer-info,
+.footer-about {
+    width: 18%;
+}
+
+.footer-about-text {
+    color: #fff;
+}
+
+.footer-info-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-call-text {
+    color: #fff;
+}
+
+.footer-time-text {
+    color: #fff;
+}
+
+.footer-location,
+.footer-time,
+.footer-call {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.3rem;
+    color: var(--grey);
+}
+
+.bottom-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-yellow);
+    padding: 0.3rem;
+}
+
+.bootom-bar-text {
+    font-weight: 300;
+    color: #FFF;
+    font-size: 0.7rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-holder {
+        flex-direction: column;
+    }
+
+    .footer-pages,
+    .logo-and-btn,
+    .footer-info,
+    .footer-about {
+        width: 100%;
+    }
+
+    .footer-logo {
+        margin-top: 5rem;
+    }
+}

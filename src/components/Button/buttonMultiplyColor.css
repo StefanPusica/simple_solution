@@ -1,0 +1,13 @@
+.ButtonMultyColor {
+    padding: 1rem;
+    color: #fff;
+    /* background: linear-gradient(270deg, var(--main-yellow) 0%, var(--main-blue) 100%); */
+    background-color: var(--main-yellow);
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+
+.ButtonMultyColor:hover {
+    cursor: pointer;
+}

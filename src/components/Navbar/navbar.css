@@ -1,0 +1,142 @@
+.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0.2rem 0.7rem;
+    background-color: var(--main-blue);
+    border-bottom: 2px solid var(--main-yellow);
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.navbar-logo {
+    width: 8%;
+}
+
+.hamburger:hover {
+    cursor: pointer;
+}
+
+.hamburger-holder {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.line {
+    width: 2.6rem;
+    height: 0.2rem;
+    background-color: var(--main-yellow);
+    transition: all 0.3s ease;
+}
+
+.hamburger.active {
+    position: absolute;
+    top: 3rem;
+    right: 2rem;
+    z-index: 300;
+}
+
+.line2 {
+    width: 3.5rem;
+}
+
+.hamburger.active .line1 {
+    transform: rotate(-760deg) translateY(5px);
+}
+
+.hamburger.active .line2 {
+    display: none;
+}
+
+.hamburger.active .line3 {
+    transform: rotate(760deg) translateY(-6px);
+}
+
+.menu {
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-blue);
+    display: none;
+    z-index: 200;
+}
+
+.menu.active{
+    display: flex;
+}
+
+.menu-items {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.menu-item {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    list-style: none;
+    font-size: 1.5rem;
+    color: var(--main-yellow);
+    fill: var(--main-yellow);
+}
+
+.menu-item:hover {
+    cursor: pointer;
+}
+
+.menu-item-text {
+    color: var(--main-yellow);
+}
+
+.menu-item-text-active {
+    color: #fff;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: var(--light-purple);
+}
+
+.menu-item a:hover {
+    color: #fff;
+}
+
+@media screen and (max-width: 750px) {
+    .menu {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .navbar-logo {
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .navbar-logo {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navbar-logo {
+        width: 30%;
+    }
+}

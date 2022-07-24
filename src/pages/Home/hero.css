@@ -1,0 +1,133 @@
+.Hero {
+    background-image: url('../../assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+}
+
+.hero-overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    background-color: #010e3c8f;
+}
+
+.hero-holder {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(000, 000, 000, 0.5);
+}
+
+.home-services-holder {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.home-service {
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 2rem 0;
+}
+
+.hero-holder-background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    /* background-color: rgba(000, 000, 000, 0.5); */
+    z-index: 100;
+}
+
+.hero-heading {
+    font-size: 3rem;
+    color: var(--main-yellow);
+    font-weight: 700;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+    margin-bottom: 1rem;
+}
+
+.tretmans-list-item {
+    font-size: 1.3rem;
+    list-style: none;
+    margin-bottom: 0.7rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.check-icon {
+    fill: var(--dark-purple);
+}
+
+.hero-btn {
+    padding: 1rem;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border: 2px solid #fff;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.margin {
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 750px) {
+    .hero-heading  {
+        font-size: 2rem;
+    }
+
+    .home-services-holder {
+        gap: 0.3rem;
+    }
+
+    .home-service {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    .hero-holder-background {
+        width: 100%;
+        height: 100%;
+        padding: 1rem;
+    }
+
+    .hero-heading {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .home-service {
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 350px) {
+
+    .tretmans-list-item {
+        font-size: 0.9rem;
+    }
+
+    .hero-btn {
+        font-size: 0.8rem;
+    }
+}
