@@ -11,16 +11,15 @@ function About() {
           <div className="about-row 1">
               <div className="about-row-left">
                 <p className='about-row-left-text'>
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                    standard dummy text ever since thee 1500s, when an unknown printer took a galley of type and scrambled it to make 
-                    a type specimen book. 
+                Mi smo tim mladih, entuzijastičnih i perspektivnih ljudi iskaljeni višegodišnjim iskustvom u IT sektoru koji je došao
+                na ideju da stečeno znanje i iskustvo prenese u pružanje specijalizovanih usluga svojim korisnicima.
                 </p>
               </div>
               <div className="about-row-right">
                 <p className='about-row-left-text'>
-                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's 
-                  standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make 
-                  a type specimen book. 
+                Kroz visegodišnju komunikaciju sa klijentima u okviru velikih kompanija i procene ponude i potražnje sličnih usluga 
+                uvideli smo potrebu **** za istupanjem na tržište i odlučili smo se da našim novim korisnicima pružimo profesionalne
+                usluge po najpristupačnijim cenama na tržištu. 
                 </p>
               </div>
           </div>
