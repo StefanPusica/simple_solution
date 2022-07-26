@@ -27,9 +27,11 @@ function Footer() {
           <div className="footer-about">
             <h1 className="footer-heading">O nama</h1>
             <p className='footer-about-text'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy 
-                text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                Kroz višegodišnju komunikaciju sa klijentima u okviru velikih kompanija i procene ponude i potražnje sličnih usluga 
+                uvideli smo potrebu za istupanjem na tržište i odlučili smo se da našim novim korisnicima pružimo profesionalne
+                usluge po najpristupačnijim cenama na tržištu.
             </p>
+            <a className='btn-more'>Više</a>
           </div>
           <div className="logo-and-btn">
             <div className="footer-logo">

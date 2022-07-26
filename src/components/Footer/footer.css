@@ -20,6 +20,12 @@
     justify-content: space-between;
 }
 
+.btn-more {
+    color: var(--main-yellow);
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
 .footer-heading {
     font-weight: 700;
     color: var(--main-yellow);
@@ -75,6 +81,11 @@
 .footer-info,
 .footer-about {
     width: 18%;
+}
+
+.footer-pages {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer-about-text {
