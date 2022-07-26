@@ -17,8 +17,8 @@ function About() {
               </div>
               <div className="about-row-right">
                 <p className='about-row-left-text'>
-                Kroz visegodišnju komunikaciju sa klijentima u okviru velikih kompanija i procene ponude i potražnje sličnih usluga 
-                uvideli smo potrebu **** za istupanjem na tržište i odlučili smo se da našim novim korisnicima pružimo profesionalne
+                Kroz višegodišnju komunikaciju sa klijentima u okviru velikih kompanija i procene ponude i potražnje sličnih usluga 
+                uvideli smo potrebu za istupanjem na tržište i odlučili smo se da našim novim korisnicima pružimo profesionalne
                 usluge po najpristupačnijim cenama na tržištu. 
                 </p>
               </div>
