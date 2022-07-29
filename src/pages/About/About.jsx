@@ -11,8 +11,7 @@ function About() {
           <div className="about-row 1">
               <div className="about-row-left">
                 <p className='about-row-left-text'>
-                Mi smo tim mladih, entuzijastičnih i perspektivnih ljudi iskaljeni višegodišnjim iskustvom u IT sektoru koji je došao
-                na ideju da stečeno znanje i iskustvo prenese u pružanje specijalizovanih usluga svojim korisnicima.
+                
                 </p>
               </div>
               <div className="about-row-right">
