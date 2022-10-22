@@ -32,7 +32,7 @@ function Hero() {
                 </div>
                 <div className="home-service">
                   <BsCodeSlash className='home-service-icon' />
-                  <p className="home-service-text">Izrada Veb sajta</p>
+                  <p className="home-service-text">Izrada Veb aplikacija</p>
                 </div>
               </div>
               <h1 className="hero-heading margin">Nalazite se na pravoj veb lokacji!</h1>

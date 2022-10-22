@@ -1,0 +1,99 @@
+.Tretman {
+    width: 100%;
+    padding: 2rem 1rem;
+    background-color: var(--main-blue);
+}
+
+.tretman-holder {
+    text-align: center;
+    position: relative;
+}
+
+.back-icon {
+    position: absolute;
+    left: 5rem;
+    top: 1rem;
+}
+
+.tretman-page-holder {
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tretman-box {
+    width: 80%;
+    padding: 3rem;
+    background-color: var(--main-yellow);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tretman-box-text {
+    font-size: 1.3rem;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: var(--main-blue);
+}
+
+.tretman-box span {
+    font-size: 0.9rem;
+    font-weight: 300;
+    color: var(--main-blue);
+}
+
+.tretman-list {
+    margin-top: 2rem;
+    /* color: var(--light-purple); */
+    font-size: 1rem;
+    font-weight: 500;
+    width: 30%;
+}
+
+.tretman-list.marg-bot {
+    margin-bottom: 2rem;
+}
+
+.tretman-list li {
+    margin-bottom: 0.3rem;
+    color: var(--main-blue);
+}
+
+@media screen and (max-width: 800px) {
+
+    .tretman-box  {
+        width: 95%;
+    }
+
+    .back-icon {
+        left: 1rem;
+    }
+
+    .tretman-box {
+        padding: 1rem;
+    }
+
+    .tretman-box-text {
+        font-size: 1.1rem;
+    }
+
+    .tretman-list {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .back-icon {
+        left: 0.1rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .back-icon {
+        left: -1rem;
+    }
+}

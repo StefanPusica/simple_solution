@@ -11,16 +11,16 @@ function About() {
           <div className="about-row 1">
               <div className="about-row-left">
                 <p className='about-row-left-text'>
-                
-                </p>
-              </div>
-              <div className="about-row-right">
-                <p className='about-row-left-text'>
                 Kroz višegodišnju komunikaciju sa klijentima u okviru velikih kompanija i procene ponude i potražnje sličnih usluga 
                 uvideli smo potrebu za istupanjem na tržište i odlučili smo se da našim novim korisnicima pružimo profesionalne
                 usluge po najpristupačnijim cenama na tržištu. 
                 </p>
               </div>
+              {/* <div className="about-row-right">
+                <p className='about-row-left-text'>
+                
+                </p>
+              </div> */}
           </div>
       </div>
       <PageHeading headingText='Šta naši korisnici kažu o nama?' />

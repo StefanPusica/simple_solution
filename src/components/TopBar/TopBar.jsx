@@ -17,7 +17,10 @@ function TopBar() {
         </div>
         <div className="right">
             <FaFacebookF />
-            <FaInstagram />
+            <a className='ig' href='https://www.instagram.com/simple_solution_balkan/'>
+                <FaInstagram  />
+            </a>
+            
         </div>
     </div>
   )

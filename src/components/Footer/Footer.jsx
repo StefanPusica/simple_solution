@@ -31,31 +31,30 @@ function Footer() {
                 uvideli smo potrebu za istupanjem na tržište i odlučili smo se da našim novim korisnicima pružimo profesionalne
                 usluge po najpristupačnijim cenama na tržištu.
             </p>
-            <a className='btn-more'>Više</a>
           </div>
           <div className="logo-and-btn">
             <div className="footer-logo">
                 <img src={images.logo} alt="footer-logo" />
             </div>
             <div className="footer-btn-holder">
-                <a href='#' className='footer-btn'>Zašto baš mi?</a>
+                <Link to={'/onama'} className='footer-btn'>Zašto baš mi?</Link>
             </div>
           </div>
           <div className="footer-pages">
-              <h1 className="footer-heading">Strane</h1>
+              <h1 className="footer-heading">Edukacija</h1>
                 <ul className="footer-list">
                     <li className='footer-list-item'>
-                        <a href='#'>Vraćanje podataka</a>
+                        <a href='#'>Soon...</a>
                     </li>
-                    <li className='footer-list-item'>
+                    {/* <li className='footer-list-item'>
                         <a href='#'>Servis računara</a>
                     </li>
                     <li className='footer-list-item'>
                         <a href='#'>Uklanjanje virusa</a>
                     </li>
                     <li className='footer-list-item'>
-                        <a href='#'>Izrada Veb sajtova</a>
-                    </li>
+                        <a href='#'>Izrada Veb aplikacija</a>
+                    </li> */}
                 </ul>
           </div>
           <div className="footer-info">
