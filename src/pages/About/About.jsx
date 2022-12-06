@@ -26,8 +26,8 @@ function About() {
               </div> */}
           </div>
       </div>
-      <PageHeading headingText='Šta naši korisnici kažu o nama?' />
-      <Slider />
+      {/* <PageHeading headingText='Šta naši korisnici kažu o nama?' /> */}
+      {/* <Slider /> */}
     </div>
   )
 }

@@ -21,13 +21,13 @@ function TopBar() {
             </div>
         </div>
         <div className="right">
-            {/* <FaFacebookF />
+            <FaFacebookF />
             <a className='ig' href='https://www.instagram.com/simple_solution_balkan/'>
                 <FaInstagram  />
-            </a> */}
-            <span>SR</span>
+            </a>
+            {/* <span>SR</span>
             <SwitchToggleButton />
-            <span>ENG</span>
+            <span>ENG</span> */}
         </div>
     </div>
   )

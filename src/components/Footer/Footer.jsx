@@ -14,16 +14,19 @@ function Footer() {
               <h1 className="footer-heading">Strane</h1>
                 <ul className="footer-list">
                     <li className='footer-list-item'>
-                        <a href='#'>Početna</a>
+                        <Link to={'/'}>Početna</Link>
                     </li>
                     <li className='footer-list-item'>
-                        <a href='#'>O nama</a>
+                        {/* <a href='#'>O nama</a> */}
+                        <Link to={'/onama'}>O nama</Link>
                     </li>
                     <li className='footer-list-item'>
-                        <a href='#'>Usluge</a>
+                        {/* <a href='#'>Usluge</a> */}
+                        <Link to={'/usluge'} >Usluge</Link>
                     </li>
                     <li className='footer-list-item'>
-                        <a href='#'>Kontakt</a>
+                        {/* <a href='/kontakt'>Kontakt</a> */}
+                        <Link to={'/kontakt'} >Kontakt</Link>
                     </li>
                 </ul>
           </div>
@@ -44,11 +47,11 @@ function Footer() {
             </div>
           </div>
           <div className="footer-pages">
-              <h1 className="footer-heading">Edukacija</h1>
+              {/* <h1 className="footer-heading">Edukacija</h1>
                 <ul className="footer-list">
                     <li className='footer-list-item'>
                         <a href='#'>Soon...</a>
-                    </li>
+                    </li> */}
                     {/* <li className='footer-list-item'>
                         <a href='#'>Servis računara</a>
                     </li>
@@ -58,7 +61,7 @@ function Footer() {
                     <li className='footer-list-item'>
                         <a href='#'>Izrada Veb aplikacija</a>
                     </li> */}
-                </ul>
+                {/* </ul> */}
           </div>
           <div className="footer-info">
             <h1 className="footer-heading">Info</h1>
