@@ -1,3 +1,5 @@
+import { useContext } from "react"
+import SolutionContext from '../../context/SolutionContext'
 import './services.css'
 import PageHeading from '../../components/Page-Heading/PageHeading'
 import images from '../../constants/images';
@@ -6,17 +8,17 @@ import  { Link } from 'react-router-dom'
 
 function Services() {
 
-  // const { serviceItems1, serviceItems2, FlagItem, showDetalis, closeDetalis } = useContext(Context);
+  const {languange} = useContext(SolutionContext)
 
   return (
     <div className='Services'>
-      <PageHeading headingText={'Usluge'} />
+      <PageHeading headingText={languange === 'RS' ? 'Usluge' : 'Services'} />
       <div className="Services-holder">
         <Link to={'/servisRacunara'} className="service-box box1"></Link>
         <Link to={'/umrezavanjeRacunara'} className="service-box box2"></Link>
         <Link to={'/wifiPokrivenost'} className="service-box box3"></Link>
         <Link to={'/izradaVebAplikacija'} className="service-box box4"></Link>
-        <div className="service-box box5"></div>
+        <Link to={'/eUprava'} className="service-box box5"></Link>
         <Link to={'/videoNadzor'} className="service-box box6"></Link>
       </div>
     </div>

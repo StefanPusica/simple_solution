@@ -1,9 +1,12 @@
+import { useContext } from "react"
 import './footer.css'
 import images from '../../constants/images'
 import { FaLocationArrow, FaClock, FaPhoneAlt } from "react-icons/fa"
 import { Link } from 'react-router-dom';
+import SolutionContext from "../../context/SolutionContext"
 
 function Footer() {
+    
   return (
     <div className="footer">
       <div className="footer-holder">
