@@ -5,7 +5,8 @@ const SolutionContext = createContext()
 export const SolutionProvider = ({children}) => {   
 
     const [english, setEnglish] = useState(false)
-    let [languange, setLanguange] = useState(localStorage.getItem('CountryCode'))
+    // let [languange, setLanguange] = useState(localStorage.getItem('CountryCode'))
+    let [languange, setLanguange] = useState('RS');
     console.log("Dalibor",languange);
 
     const changeLanguange = () => {

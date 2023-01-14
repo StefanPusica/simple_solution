@@ -18,10 +18,10 @@ function WifiCoverage() {
         <PageHeading headingText={languange === 'RS' ? 'Wifi Pokrivenost' : 'Tekst na engleskom'} />
         <div className="tretman-page-holder">
             <div className="tretman-box">
-                <SectionText styleName={'tretman-box-text'} text={'Primetili ste da Vam je internet u nekoj od prostorija znatno sporiji I sadrzaj seucitava dosta duze nego sto bi trebaloTo je znak da je potrebno dodati jednu ili vise pristupnih tacaka kako bipokrivenost wifi signalom bila jednaka u celoj stambenoj jedinici ili poslovnomprostoru.'}></SectionText>
-                <SectionText styleName={'tretman-box-span-text'} text={'Cena uredjaja (pristupnih tacaka) zavisi od konkretnih specifikacija uredjaja, a mi cemo Vam pomoci da odabrete pravu stvar za Vas u skladu sa Vasim potrebama.'}></SectionText>
+                <SectionText styleName={'tretman-box-text'} text={'Primetili ste da Vam je internet u nekoj od prostorija znatno sporiji i sadržaj se učitavadosta duže nego što bi trebalo. To je znak da je potrebno dodati jednu ili više pristupnihtačaka kako bi pokrivenost WiFi signalom bila jednaka u celoj stambenoj jedinici ili poslovnom prostoru.'}></SectionText>
+                <SectionText styleName={'tretman-box-span-text'} text={'Cena uredjaja (pristupnih tačaka) zavisi od konkretnih specifikacija uredjaja, a mi ćemo Vam pomoći da odabrete pravu stvar za Vas u skladu sa Vasim potrebama.'}></SectionText>
                 <ul className='tretman-list'>
-                    <li>Ugradnja I konfigurisanje rutera I pristupnih tacaka (ime wifi mreze, lozinka, itd)</li>
+                    <li>Ugradnja I konfigurisanje rutera I pristupnih tačaka (ime wifi mreze, lozinka, itd)</li>
                 </ul>
             </div>
         </div>

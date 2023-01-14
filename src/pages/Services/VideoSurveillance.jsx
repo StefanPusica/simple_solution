@@ -18,9 +18,12 @@ function VideoSurveillance() {
         <PageHeading headingText={languange === 'RS' ? 'Video nadzor' : 'Tekst na engleskom'} />
         <div className="tretman-page-holder">
             <div className="tretman-box">
-                <SectionText styleName={'tretman-box-text'} text={languange === 'RS' ? 'Svedoci smo sve cescih obijanja kuca I stanova koja se desavaju oko nas.' : 'Tekst na engleskom'}></SectionText>
+                <SectionText styleName={'tretman-box-text'} text={languange === 'RS' ? 'Dokazano je da je stopa provala i krađa znatno niža u objektima sa video nadzorom. Zaštitite svoju imovinu i najmilije najsavremenijom opremom renomiranih proizvođača i spavajte spokojno.' : 'Tekst na engleskom'}></SectionText>
                 <span className='tretman-box-span-text'></span>
                 <ul className='tretman-list'>
+                  <li>Ugradnja i konfiguracija kamera i snimača</li>
+                  <li>Udaljeni pristup kamerama sa mobilnog telefona</li>
+                  <li>Skraćeni kurs korišćenja opreme</li>
                 </ul>
             </div>
         </div>

@@ -2,6 +2,8 @@ import { createContext, useState, useContext } from 'react'
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import axios from 'axios'
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import SolutionContext from "./context/SolutionContext";
 import TopBar from './components/TopBar/TopBar';
 import Navbar from './components/Navbar/Navbar';
@@ -51,6 +53,7 @@ function App() {
         <Router>
             <TopBar/>
             <Navbar />
+            <ToastContainer />
             <Routes>
               <Route path='/' element={< Hero />} />
               <Route path='/onama' element={< About />} />

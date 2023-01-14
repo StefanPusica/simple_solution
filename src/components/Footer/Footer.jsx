@@ -76,7 +76,7 @@ function Footer() {
                 </div>
                 <div className="footer-call">
                     <FaPhoneAlt fill='#fff' />
-                    <p className='footer-call-text'>062388562</p>
+                    <p className='footer-call-text'>+381628719654</p>
                 </div>
             </div>
           </div>

@@ -15,7 +15,7 @@ function TopBar() {
                 <p>Safarikova 25, Novi Sad</p>
             </div> */}
             <div className="phone">
-                <a href='tel:062388562'>
+                <a href='tel:+381628719654'>
                     <FaPhoneAlt className='phone-icon' />
                 </a>
             </div>

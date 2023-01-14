@@ -20,7 +20,7 @@ function PcServices() {
             <div className="tretman-box">
             <SectionText 
               styleName={'tretman-box-text'} 
-              text={languange === 'RS' ? 'Vasem racunaru treba citava vecnost da se pokrene? Pre samo par godina ste skupo platili Vas racunar a imate utisak kao da je vec prevazidjen? Znatno ubrzajte svoj racunar i ponovo ga ucinite upotrebljivim za rad ili zabavu. Vec od 2999rsd.' :
+              text={languange === 'RS' ? 'Vašem računaru treba čitava večnost da se pokrene? Pre samo par godina ste skupo platili svoj racunar a imate utisak kao da je već prevazidjen? Znatno ubrzajte svoj računar i ponovo ga učinite upotrebljivim za rad ili zabavu. Već od 3999rsd.' :
               'Tekst na engleskom'}>
             </SectionText>
                 <SectionText styleName={'tretman-box-span-text'}></SectionText>
